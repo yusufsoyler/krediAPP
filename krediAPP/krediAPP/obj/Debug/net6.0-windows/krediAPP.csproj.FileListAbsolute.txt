@@ -1,0 +1,16 @@
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\bin\Debug\net6.0-windows\krediAPP.exe
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\bin\Debug\net6.0-windows\krediAPP.deps.json
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\bin\Debug\net6.0-windows\krediAPP.runtimeconfig.json
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\bin\Debug\net6.0-windows\krediAPP.dll
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\bin\Debug\net6.0-windows\krediAPP.pdb
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.Form1.resources
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.csproj.GenerateResource.cache
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.AssemblyInfoInputs.cache
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.AssemblyInfo.cs
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.dll
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\refint\krediAPP.dll
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.pdb
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.genruntimeconfig.cache
+C:\Users\yusuf\source\repos\krediAPP\krediAPP\obj\Debug\net6.0-windows\ref\krediAPP.dll
