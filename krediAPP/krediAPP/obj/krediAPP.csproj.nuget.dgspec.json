@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yusuf\\source\\repos\\krediAPP\\krediAPP\\krediAPP.csproj": {}
+    "C:\\Users\\yusuf\\Desktop\\project\\krediAPP\\krediAPP\\krediAPP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yusuf\\source\\repos\\krediAPP\\krediAPP\\krediAPP.csproj": {
+    "C:\\Users\\yusuf\\Desktop\\project\\krediAPP\\krediAPP\\krediAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusuf\\source\\repos\\krediAPP\\krediAPP\\krediAPP.csproj",
+        "projectUniqueName": "C:\\Users\\yusuf\\Desktop\\project\\krediAPP\\krediAPP\\krediAPP.csproj",
         "projectName": "krediAPP",
-        "projectPath": "C:\\Users\\yusuf\\source\\repos\\krediAPP\\krediAPP\\krediAPP.csproj",
+        "projectPath": "C:\\Users\\yusuf\\Desktop\\project\\krediAPP\\krediAPP\\krediAPP.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusuf\\source\\repos\\krediAPP\\krediAPP\\obj\\",
+        "outputPath": "C:\\Users\\yusuf\\Desktop\\project\\krediAPP\\krediAPP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",

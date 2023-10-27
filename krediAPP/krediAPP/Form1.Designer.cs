@@ -111,6 +111,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(128, 255, 128);
             label2.Location = new Point(30, 108);
             label2.Name = "label2";
             label2.Size = new Size(80, 15);
@@ -121,6 +122,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.FromArgb(128, 255, 128);
             label3.Location = new Point(313, 111);
             label3.Name = "label3";
             label3.Size = new Size(72, 15);
@@ -131,6 +133,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.FromArgb(128, 255, 128);
             label4.Location = new Point(321, 46);
             label4.Name = "label4";
             label4.Size = new Size(64, 15);
@@ -141,7 +144,7 @@
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.FromArgb(255, 192, 128);
-            label5.Location = new Point(461, 195);
+            label5.Location = new Point(338, 219);
             label5.Name = "label5";
             label5.Size = new Size(47, 15);
             label5.TabIndex = 10;
@@ -150,8 +153,8 @@
             // 
             // button2
             // 
-            button2.BackColor = SystemColors.InactiveCaption;
-            button2.Location = new Point(235, 173);
+            button2.BackColor = Color.FromArgb(255, 192, 128);
+            button2.Location = new Point(148, 183);
             button2.Name = "button2";
             button2.Size = new Size(105, 37);
             button2.TabIndex = 11;
@@ -172,6 +175,7 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.FromArgb(128, 255, 128);
             label6.Location = new Point(15, 43);
             label6.Name = "label6";
             label6.Size = new Size(99, 15);
@@ -182,7 +186,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PaleGreen;
+            BackColor = Color.FromArgb(255, 192, 255);
             ClientSize = new Size(643, 302);
             Controls.Add(label6);
             Controls.Add(comboBox1);

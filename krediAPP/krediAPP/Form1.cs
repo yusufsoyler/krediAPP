@@ -78,7 +78,7 @@ namespace krediAPP
             double aylikOdeme = (anapara * aylikFaizOrani) / (1 - Math.Pow(1 + aylikFaizOrani, -vadeSuresi));
             double toplamOdeme = aylikOdeme * vadeSuresi;
             double toplamFaiz = toplamOdeme - anapara;
-            
+
 
 
             label5.Text = "Aylýk Taksit: " + aylikOdeme.ToString("C");
@@ -86,7 +86,7 @@ namespace krediAPP
             label5.Text += "\nToplam Ödeme: " + toplamOdeme.ToString("C");
             label5.Text += "\nToplam Faiz: " + toplamFaiz.ToString("C");
             label5.Text += "\nTaksit Sayýsý: " + vadeSuresi.ToString();
-           
+
 
 
         }
