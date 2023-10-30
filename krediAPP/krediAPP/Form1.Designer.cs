@@ -143,17 +143,18 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.BackColor = Color.FromArgb(255, 192, 128);
-            label5.Location = new Point(338, 219);
+            label5.BackColor = Color.FromArgb(128, 255, 128);
+            label5.Font = new Font("Corbel", 14.25F, FontStyle.Italic, GraphicsUnit.Point);
+            label5.Location = new Point(338, 194);
             label5.Name = "label5";
-            label5.Size = new Size(47, 15);
+            label5.Size = new Size(69, 23);
             label5.TabIndex = 10;
             label5.Text = "SONUÇ";
             label5.Click += label5_Click;
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(255, 192, 128);
+            button2.BackColor = Color.Lime;
             button2.Location = new Point(148, 183);
             button2.Name = "button2";
             button2.Size = new Size(105, 37);
@@ -186,7 +187,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(255, 192, 255);
+            BackColor = Color.FromArgb(255, 255, 128);
             ClientSize = new Size(643, 302);
             Controls.Add(label6);
             Controls.Add(comboBox1);

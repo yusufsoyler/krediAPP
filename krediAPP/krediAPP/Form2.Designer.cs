@@ -55,7 +55,7 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.MediumOrchid;
+            textBox1.BackColor = Color.FromArgb(192, 255, 192);
             textBox1.Location = new Point(159, 36);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(110, 23);
@@ -63,7 +63,7 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = Color.MediumOrchid;
+            textBox2.BackColor = Color.FromArgb(192, 255, 192);
             textBox2.Location = new Point(159, 76);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(110, 23);
@@ -71,7 +71,7 @@
             // 
             // textBox3
             // 
-            textBox3.BackColor = Color.MediumOrchid;
+            textBox3.BackColor = Color.FromArgb(192, 255, 192);
             textBox3.Location = new Point(159, 121);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(110, 23);
@@ -79,7 +79,7 @@
             // 
             // textBox4
             // 
-            textBox4.BackColor = Color.MediumOrchid;
+            textBox4.BackColor = Color.FromArgb(192, 255, 192);
             textBox4.Location = new Point(159, 179);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(110, 23);
@@ -87,7 +87,7 @@
             // 
             // textBox5
             // 
-            textBox5.BackColor = Color.MediumOrchid;
+            textBox5.BackColor = Color.FromArgb(192, 255, 192);
             textBox5.Location = new Point(159, 216);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(110, 23);
@@ -95,11 +95,13 @@
             // 
             // textBox6
             // 
-            textBox6.BackColor = Color.MediumOrchid;
+            textBox6.BackColor = Color.FromArgb(192, 255, 192);
+            textBox6.BorderStyle = BorderStyle.FixedSingle;
             textBox6.Location = new Point(159, 270);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(110, 23);
+            textBox6.Size = new Size(143, 23);
             textBox6.TabIndex = 5;
+            textBox6.Text = "BURAYI DOLDURMAYINIZ";
             // 
             // checkBox1
             // 
@@ -177,7 +179,7 @@
             groupBox1.Controls.Add(checkBox1);
             groupBox1.Location = new Point(459, 30);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(215, 124);
+            groupBox1.Size = new Size(206, 124);
             groupBox1.TabIndex = 12;
             groupBox1.TabStop = false;
             groupBox1.Text = "Kefil Durumu";
@@ -190,7 +192,7 @@
             groupBox2.Controls.Add(checkBox3);
             groupBox2.Location = new Point(459, 169);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(215, 143);
+            groupBox2.Size = new Size(206, 143);
             groupBox2.TabIndex = 13;
             groupBox2.TabStop = false;
             groupBox2.Text = "Kredi Türü";
@@ -202,7 +204,7 @@
             label1.Name = "label1";
             label1.Size = new Size(96, 15);
             label1.TabIndex = 14;
-            label1.Text = "Adınız Soyadınzı:";
+            label1.Text = "Adınız Soyadınız:";
             label1.Click += label1_Click;
             // 
             // label2
@@ -253,7 +255,7 @@
             // button2
             // 
             button2.BackColor = Color.MediumSpringGreen;
-            button2.Location = new Point(21, 397);
+            button2.Location = new Point(12, 397);
             button2.Name = "button2";
             button2.Size = new Size(184, 59);
             button2.TabIndex = 20;
