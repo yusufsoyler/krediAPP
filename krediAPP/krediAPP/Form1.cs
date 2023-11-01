@@ -79,7 +79,7 @@ namespace krediAPP
             double toplamOdeme = aylikOdeme * vadeSuresi;
             double toplamFaiz = toplamOdeme - anapara;
 
-
+            //anapara * anapara * faiz /12
 
             label5.Text = "Aylýk Taksit: " + aylikOdeme.ToString("C");
             label5.Text += "\nAnapara Miktarý:" + anapara.ToString();
@@ -94,6 +94,11 @@ namespace krediAPP
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

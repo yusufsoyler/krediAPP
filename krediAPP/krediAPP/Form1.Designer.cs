@@ -42,6 +42,7 @@
             button2 = new Button();
             comboBox1 = new ComboBox();
             label6 = new Label();
+            button3 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -183,12 +184,24 @@
             label6.TabIndex = 13;
             label6.Text = "VADE SÜRESİ(AY):";
             // 
+            // button3
+            // 
+            button3.BackColor = Color.Red;
+            button3.Location = new Point(470, 245);
+            button3.Name = "button3";
+            button3.Size = new Size(86, 44);
+            button3.TabIndex = 14;
+            button3.Text = "ÇIKIŞ";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(255, 255, 128);
-            ClientSize = new Size(643, 302);
+            BackColor = Color.FromArgb(192, 255, 255);
+            ClientSize = new Size(557, 289);
+            Controls.Add(button3);
             Controls.Add(label6);
             Controls.Add(comboBox1);
             Controls.Add(button2);
@@ -203,7 +216,9 @@
             Controls.Add(label1);
             Controls.Add(dateTimePicker1);
             Controls.Add(textBox1);
+            MdiChildrenMinimizedAnchorBottom = false;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
@@ -226,5 +241,6 @@
         private Button button2;
         private ComboBox comboBox1;
         private Label label6;
+        private Button button3;
     }
 }

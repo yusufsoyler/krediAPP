@@ -27,7 +27,7 @@ namespace krediAPP
         {
             if (checkBox1.Checked == true)
             {
-                MessageBox.Show("Kefil bilgilerini giriniz.");
+                MessageBox.Show("Lütfen kefil bilgilerini giriniz.");
                 groupBox2.Visible = true;
             }
             else
@@ -37,7 +37,7 @@ namespace krediAPP
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             checkBox2.Checked = true;
-            MessageBox.Show("Bankamız kefil olmadan kredi vermemektedir. :)");
+            MessageBox.Show("Bankamız kefil olmadan kredi verememektedir. pis fakir:)");
             checkBox2.Visible = false;
         }
 
@@ -50,11 +50,11 @@ namespace krediAPP
 
             if (maas <= 7500)
             {
-                MessageBox.Show("Bankamız maas miktarınız 7500 TL az olduğu için kredi vermemektedir.");
+                MessageBox.Show("Bankamız maas miktarınız 7500 TL az olduğu için kredi vermemektedir.:)");
             }
             if (maas1 <= 7500)
             {
-                MessageBox.Show("Bankamız kefiliniz maaş miktarının 7500 TL az olduğu için kredi vermemektedir.");
+                MessageBox.Show("Bankamız kefiliniz maaş miktarının 7500 TL az olduğu için kredi vermemektedir. :)");
             }
 
             double sayi1, tutar;
@@ -93,6 +93,11 @@ namespace krediAPP
         {
             Form1 form1 = new Form1();
             form1.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

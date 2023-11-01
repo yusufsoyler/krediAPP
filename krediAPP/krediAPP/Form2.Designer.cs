@@ -49,6 +49,7 @@
             label5 = new Label();
             label6 = new Label();
             button2 = new Button();
+            button3 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -163,7 +164,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Yellow;
+            button1.BackColor = Color.FromArgb(192, 255, 192);
             button1.Location = new Point(490, 355);
             button1.Name = "button1";
             button1.Size = new Size(142, 59);
@@ -254,8 +255,8 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.MediumSpringGreen;
-            button2.Location = new Point(12, 397);
+            button2.BackColor = Color.Fuchsia;
+            button2.Location = new Point(35, 355);
             button2.Name = "button2";
             button2.Size = new Size(184, 59);
             button2.TabIndex = 20;
@@ -263,12 +264,24 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.BackColor = Color.Red;
+            button3.Location = new Point(716, 451);
+            button3.Name = "button3";
+            button3.Size = new Size(95, 47);
+            button3.TabIndex = 21;
+            button3.Text = "ÇIKIŞ";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(128, 255, 255);
-            ClientSize = new Size(759, 468);
+            BackColor = Color.FromArgb(255, 192, 192);
+            ClientSize = new Size(810, 497);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -286,6 +299,7 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
             Load += Form2_Load;
             groupBox1.ResumeLayout(false);
@@ -319,5 +333,6 @@
         private Label label5;
         private Label label6;
         private Button button2;
+        private Button button3;
     }
 }
