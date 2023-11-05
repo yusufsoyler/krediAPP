@@ -112,7 +112,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = Color.FromArgb(128, 255, 128);
+            label2.BackColor = Color.FromArgb(255, 128, 0);
             label2.Location = new Point(30, 108);
             label2.Name = "label2";
             label2.Size = new Size(80, 15);
@@ -123,7 +123,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = Color.FromArgb(128, 255, 128);
+            label3.BackColor = Color.FromArgb(255, 128, 0);
             label3.Location = new Point(313, 111);
             label3.Name = "label3";
             label3.Size = new Size(72, 15);
@@ -134,7 +134,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.BackColor = Color.FromArgb(128, 255, 128);
+            label4.BackColor = Color.FromArgb(255, 128, 0);
             label4.Location = new Point(321, 46);
             label4.Name = "label4";
             label4.Size = new Size(64, 15);
@@ -144,7 +144,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.BackColor = Color.FromArgb(128, 255, 128);
+            label5.BackColor = Color.FromArgb(255, 128, 0);
             label5.Font = new Font("Corbel", 14.25F, FontStyle.Italic, GraphicsUnit.Point);
             label5.Location = new Point(338, 194);
             label5.Name = "label5";
@@ -155,10 +155,10 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Lime;
-            button2.Location = new Point(148, 183);
+            button2.BackColor = Color.MediumTurquoise;
+            button2.Location = new Point(132, 176);
             button2.Name = "button2";
-            button2.Size = new Size(105, 37);
+            button2.Size = new Size(121, 41);
             button2.TabIndex = 11;
             button2.Text = "HESAPLA";
             button2.UseVisualStyleBackColor = false;
@@ -177,7 +177,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.BackColor = Color.FromArgb(128, 255, 128);
+            label6.BackColor = Color.FromArgb(255, 128, 0);
             label6.Location = new Point(15, 43);
             label6.Name = "label6";
             label6.Size = new Size(99, 15);
@@ -199,7 +199,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(192, 255, 255);
+            BackColor = Color.FromArgb(255, 255, 192);
             ClientSize = new Size(557, 289);
             Controls.Add(button3);
             Controls.Add(label6);

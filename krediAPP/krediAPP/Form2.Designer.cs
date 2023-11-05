@@ -56,7 +56,7 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.FromArgb(192, 255, 192);
+            textBox1.BackColor = Color.Fuchsia;
             textBox1.Location = new Point(159, 36);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(110, 23);
@@ -64,7 +64,7 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = Color.FromArgb(192, 255, 192);
+            textBox2.BackColor = Color.Fuchsia;
             textBox2.Location = new Point(159, 76);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(110, 23);
@@ -72,7 +72,7 @@
             // 
             // textBox3
             // 
-            textBox3.BackColor = Color.FromArgb(192, 255, 192);
+            textBox3.BackColor = Color.Fuchsia;
             textBox3.Location = new Point(159, 121);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(110, 23);
@@ -80,7 +80,7 @@
             // 
             // textBox4
             // 
-            textBox4.BackColor = Color.FromArgb(192, 255, 192);
+            textBox4.BackColor = Color.Fuchsia;
             textBox4.Location = new Point(159, 179);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(110, 23);
@@ -88,7 +88,7 @@
             // 
             // textBox5
             // 
-            textBox5.BackColor = Color.FromArgb(192, 255, 192);
+            textBox5.BackColor = Color.Fuchsia;
             textBox5.Location = new Point(159, 216);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(110, 23);
@@ -96,7 +96,7 @@
             // 
             // textBox6
             // 
-            textBox6.BackColor = Color.FromArgb(192, 255, 192);
+            textBox6.BackColor = Color.Fuchsia;
             textBox6.BorderStyle = BorderStyle.FixedSingle;
             textBox6.Location = new Point(159, 270);
             textBox6.Name = "textBox6";
@@ -164,7 +164,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(192, 255, 192);
+            button1.BackColor = Color.FromArgb(128, 128, 255);
             button1.Location = new Point(490, 355);
             button1.Name = "button1";
             button1.Size = new Size(142, 59);
@@ -255,7 +255,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Fuchsia;
+            button2.BackColor = Color.MediumPurple;
             button2.Location = new Point(35, 355);
             button2.Name = "button2";
             button2.Size = new Size(184, 59);
@@ -279,7 +279,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(255, 192, 192);
+            BackColor = Color.FromArgb(255, 255, 128);
             ClientSize = new Size(810, 497);
             Controls.Add(button3);
             Controls.Add(button2);
