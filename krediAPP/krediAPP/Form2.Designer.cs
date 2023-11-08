@@ -50,6 +50,7 @@
             label6 = new Label();
             button2 = new Button();
             button3 = new Button();
+            button4 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -275,12 +276,24 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
+            // button4
+            // 
+            button4.BackColor = Color.MediumTurquoise;
+            button4.Location = new Point(35, 434);
+            button4.Name = "button4";
+            button4.Size = new Size(184, 51);
+            button4.TabIndex = 22;
+            button4.Text = "SÖZLEŞME";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 255, 128);
             ClientSize = new Size(810, 497);
+            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label6);
@@ -334,5 +347,6 @@
         private Label label6;
         private Button button2;
         private Button button3;
+        private Button button4;
     }
 }
