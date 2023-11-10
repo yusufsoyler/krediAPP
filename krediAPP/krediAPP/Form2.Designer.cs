@@ -51,6 +51,7 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            button5 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -166,7 +167,7 @@
             // button1
             // 
             button1.BackColor = Color.FromArgb(128, 128, 255);
-            button1.Location = new Point(490, 355);
+            button1.Location = new Point(492, 357);
             button1.Name = "button1";
             button1.Size = new Size(142, 59);
             button1.TabIndex = 11;
@@ -257,7 +258,7 @@
             // button2
             // 
             button2.BackColor = Color.MediumPurple;
-            button2.Location = new Point(35, 355);
+            button2.Location = new Point(35, 357);
             button2.Name = "button2";
             button2.Size = new Size(184, 59);
             button2.TabIndex = 20;
@@ -268,7 +269,7 @@
             // button3
             // 
             button3.BackColor = Color.Red;
-            button3.Location = new Point(716, 451);
+            button3.Location = new Point(721, 541);
             button3.Name = "button3";
             button3.Size = new Size(95, 47);
             button3.TabIndex = 21;
@@ -279,7 +280,7 @@
             // button4
             // 
             button4.BackColor = Color.MediumTurquoise;
-            button4.Location = new Point(35, 434);
+            button4.Location = new Point(35, 462);
             button4.Name = "button4";
             button4.Size = new Size(184, 51);
             button4.TabIndex = 22;
@@ -287,12 +288,24 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
+            // button5
+            // 
+            button5.BackColor = Color.FromArgb(255, 128, 128);
+            button5.Location = new Point(494, 462);
+            button5.Name = "button5";
+            button5.Size = new Size(140, 55);
+            button5.TabIndex = 23;
+            button5.Text = "HESAPLAR";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 255, 128);
-            ClientSize = new Size(810, 497);
+            ClientSize = new Size(815, 589);
+            Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -348,5 +361,6 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Button button5;
     }
 }

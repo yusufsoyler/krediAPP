@@ -32,3 +32,4 @@ C:\Users\yusuf\Desktop\project\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediA
 C:\Users\yusuf\Desktop\project\krediAPP\krediAPP\obj\Debug\net6.0-windows\ref\krediAPP.dll
 C:\Users\yusuf\Desktop\project\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.Form2.resources
 C:\Users\yusuf\Desktop\project\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.Form3.resources
+C:\Users\yusuf\Desktop\project\krediAPP\krediAPP\obj\Debug\net6.0-windows\krediAPP.Form4.resources
